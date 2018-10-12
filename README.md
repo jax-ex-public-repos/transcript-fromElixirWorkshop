@@ -1,21 +1,25 @@
-# Conversation
+## transcript-fromElixirWorkshop
 
-**TODO: Add description**
+October 11, this project was first presented at the Jax.Ex elixir workshop.
+
+The project had the group make a Stack module with a loop function that used pattern matching to call push and pop.
+
+The stack communicated with the outside world by recieving and sending messages.
+
+Events occoured in real time.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `conversation` to your list of dependencies in `mix.exs`:
+Project was implemented with `mix new conversation; mix test`
 
-```elixir
-def deps do
-  [
-    {:conversation, "~> 0.1.0"}
-  ]
-end
+The mix project can be compiled and run with the following command:
+`iex -S mix`
+
+Full instructions:
+```bash
+git clone https://github.com/MichaelDimmitt/transcript-fromElixirWorkshop.git;
+cd transcript-fromElixirWorkshop;
+iex -S mix;
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/conversation](https://hexdocs.pm/conversation).
 
