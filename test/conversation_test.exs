@@ -43,4 +43,9 @@ defmodule ConversationTest do
     IO.puts('end')
   end
 
+  test "Conversation.iCanDoStuffAllTheStuffButYouNoSee" do
+    assert [Conversation.iCanDoStuffAllTheStuffButYouNoSee] == [:ok]
+    IO.puts('end')
+  end
+  
 end
