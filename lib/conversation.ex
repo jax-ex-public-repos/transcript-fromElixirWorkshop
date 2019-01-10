@@ -27,9 +27,13 @@ defmodule Conversation do
   def iCanDoStuffAllTheStuffButYouNoSee do
     stack = Conversation.new
     Conversation.pop(stack)
+    |> IO.inspect
     Conversation.pop(stack)
+    |> IO.inspect
     Conversation.pop(stack)
+    |> IO.inspect
     Conversation.pop(stack)
+    |> IO.inspect
     Conversation.pop(stack)
   end
 
